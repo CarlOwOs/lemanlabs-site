@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,11 +13,14 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center gap-2">
-            <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
-              <rect width="32" height="32" rx="8" fill="#1a1a1a"/>
-              <path d="M8 12L16 8L24 12V20L16 24L8 20V12Z" stroke="white" strokeWidth="2" fill="none"/>
-              <circle cx="16" cy="16" r="3" fill="white"/>
-            </svg>
+            <Image
+              src="/logo-icon.png"
+              alt="LemanLabs"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+              style={{ filter: "grayscale(1) contrast(5)" }}
+            />
             <span className="text-gray-900 font-semibold text-xl">LemanLabs</span>
           </a>
 

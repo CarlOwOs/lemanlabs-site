@@ -22,7 +22,7 @@ export default function HowItWorks() {
                   <span className="text-purple-400">from</span>{" "}
                   <span className="text-green-400">'openai'</span>;{"\n\n"}
 
-                  <span className="text-gray-500">// Just change the baseURL</span>{"\n"}
+                  <span className="text-gray-500">// Try it for free - no API key needed</span>{"\n"}
                   <span className="text-purple-400">const</span>{" "}
                   <span className="text-blue-300">client</span>{" "}
                   <span className="text-white">=</span>{" "}
@@ -32,14 +32,6 @@ export default function HowItWorks() {
                   {"  "}<span className="text-blue-300">baseURL</span>
                   <span className="text-white">:</span>{" "}
                   <span className="text-green-400">'https://api.lemanlabs.com/v1'</span>
-                  <span className="text-white">,</span>{"\n"}
-                  {"  "}<span className="text-blue-300">apiKey</span>
-                  <span className="text-white">:</span>{" "}
-                  <span className="text-blue-300">process</span>
-                  <span className="text-white">.</span>
-                  <span className="text-blue-300">env</span>
-                  <span className="text-white">.</span>
-                  <span className="text-blue-300">LEMANLABS_API_KEY</span>
                   <span className="text-white">,</span>{"\n"}
                   <span className="text-white">{"});"}</span>{"\n\n"}
 
@@ -57,7 +49,7 @@ export default function HowItWorks() {
                   <span className="text-white">{"({"}</span>{"\n"}
                   {"  "}<span className="text-blue-300">model</span>
                   <span className="text-white">:</span>{" "}
-                  <span className="text-green-400">'leman-fast'</span>
+                  <span className="text-green-400">'leman-zero'</span>
                   <span className="text-white">,</span>{"\n"}
                   {"  "}<span className="text-blue-300">messages</span>
                   <span className="text-white">:</span>{" "}
