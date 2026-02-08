@@ -12,16 +12,16 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
+          <a href="/" className="flex items-center gap-2.5">
             <Image
               src="/logo-icon.png"
               alt="LemanLabs"
-              width={32}
-              height={32}
-              className="w-8 h-8"
+              width={28}
+              height={28}
+              className="w-7 h-7 object-contain"
               style={{ filter: "grayscale(1) contrast(5)" }}
             />
-            <span className="text-gray-900 font-semibold text-xl">LemanLabs</span>
+            <span className="text-gray-900 font-semibold text-xl leading-none">LemanLabs</span>
           </a>
 
           {/* Desktop Navigation - Hidden for now */}
