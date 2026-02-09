@@ -12,7 +12,7 @@ export default function Hero() {
 
         {/* Main headline - Serif font like Karumi */}
         <h1 className="font-serif text-5xl md:text-7xl font-normal text-gray-900 mb-6 leading-[1.1] tracking-tight">
-          State-of-the-art linear models
+          The best linear models
           <br />
           —<span className="italic">without the cost</span>
         </h1>
