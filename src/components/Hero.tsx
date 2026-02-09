@@ -24,7 +24,7 @@ export default function Hero() {
 
         {/* CTA Button */}
         <a
-          href="#"
+          href="/docs"
           className="btn-primary text-lg"
         >
           Start Building

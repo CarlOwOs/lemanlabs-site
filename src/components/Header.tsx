@@ -43,7 +43,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <a
-              href="#"
+              href="/docs"
               className="btn-primary"
             >
               Start Building
@@ -67,7 +67,7 @@ export default function Header() {
           <div className="md:hidden mt-4 pb-4 border-t border-gray-100 pt-4">
             <div className="flex flex-col gap-4">
               <a
-                href="#"
+                href="/docs"
                 className="btn-primary text-center justify-center"
               >
                 Start Building

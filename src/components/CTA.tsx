@@ -14,7 +14,7 @@ export default function CTA() {
           </p>
 
           <a
-            href="#"
+            href="/docs"
             className="btn-primary text-lg"
           >
             Start Building
