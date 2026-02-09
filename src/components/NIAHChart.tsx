@@ -6,8 +6,8 @@ const contextLengths = ["1k", "2k", "4k", "8k", "16k", "32k"];
 
 const models = [
   {
-    name: "Leman-0",
-    label: "Leman-0 (Ours)",
+    name: "Leman.zero",
+    label: "Leman.zero (Ours)",
     color: "#f97316",
     strokeColor: "stroke-orange-500",
     dotColor: "bg-orange-500",
@@ -109,7 +109,7 @@ export default function NIAHChart() {
             <span className="gradient-text-warm">any length</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Needle-in-a-Haystack accuracy across context lengths. Leman-0 stays
+            Needle-in-a-Haystack accuracy across context lengths. Leman.zero stays
             near-perfect where others collapse.
           </p>
         </div>
@@ -171,7 +171,7 @@ export default function NIAHChart() {
                       d={buildPath(model.data)}
                       fill="none"
                       stroke={model.color}
-                      strokeWidth={model.name === "Leman-0" ? 3 : 2}
+                      strokeWidth={model.name === "Leman.zero" ? 3 : 2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeDasharray={pathLength}
@@ -190,7 +190,7 @@ export default function NIAHChart() {
                       <circle
                         cx={getX(pointIdx)}
                         cy={getY(val)}
-                        r={model.name === "Leman-0" ? 5 : 4}
+                        r={model.name === "Leman.zero" ? 5 : 4}
                         fill="white"
                         stroke={model.color}
                         strokeWidth={2}
@@ -260,7 +260,7 @@ export default function NIAHChart() {
                 />
                 <span
                   className={`text-sm ${
-                    model.name === "Leman-0"
+                    model.name === "Leman.zero"
                       ? "font-semibold text-gray-900"
                       : "text-gray-500"
                   }`}

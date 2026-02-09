@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 const linearModels = [
   { name: "Mamba Codestral", score: 47, type: "competitor" as const },
   { name: "Mamba Falcon", score: 70, type: "competitor" as const },
-  { name: "Leman-0", score: 77.8, type: "ours" as const },
+  { name: "Leman.zero", score: 77.8, type: "ours" as const },
 ];
 
 const transformerBaseline = {
@@ -50,7 +50,7 @@ export default function ArchComparison() {
             <span className="gradient-text-warm">linear models</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Arch C benchmark at 14B scale. Leman-0 leads all linear models and
+            Arch C benchmark at 14B scale. Leman.zero leads all linear models and
             closes the gap with full transformers.
           </p>
         </div>

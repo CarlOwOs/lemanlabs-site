@@ -31,7 +31,7 @@ export default function HowItWorks() {
                   <span className="text-white">{"({"}</span>{"\n"}
                   {"  "}<span className="text-blue-300">baseURL</span>
                   <span className="text-white">:</span>{" "}
-                  <span className="text-green-400">'https://api.lemanlabs.com/v1'</span>
+                  <span className="text-green-400">'https://carloshurtadocomin--lemanlabs-openai-api-fastapi-app.modal.run/v1'</span>
                   <span className="text-white">,</span>{"\n"}
                   <span className="text-white">{"});"}</span>{"\n\n"}
 
