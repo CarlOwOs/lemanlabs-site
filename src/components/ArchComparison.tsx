@@ -153,7 +153,7 @@ export default function ArchComparison() {
                 />
               </svg>
               <span className="text-sm font-medium text-orange-700">
-                Only ~5% gap to full transformer — at a fraction of the cost
+                Only ~5% gap to full transformer at a fraction of the cost
               </span>
             </div>
           </div>
